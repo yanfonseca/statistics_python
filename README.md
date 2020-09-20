@@ -3,7 +3,7 @@
 #### Histogram
 
 * Bins
-  Square root of number of samples.
+  Commom rule is the Square root of number of samples.
 
 #### ECDF - Empirical cumulative distribution function
 
@@ -21,3 +21,22 @@ def ecdf(data):
 
     return x, y
 ```
+
+Start to see the histogram, than warplot, ECDF.
+
+#### Percentile
+
+Mean == 50% Percentile
+np.percentile()
+
+#### Box Plot
+
+[75, 50, 25] percentage quatiles
+IQR - Inter Quantile Range - Inside the box plot.
+1,5IQR - Extreme.
+2 x IQR - More is considered outlier.
+
+
+
+
+
