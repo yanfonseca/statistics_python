@@ -23,6 +23,8 @@ def ecdf(data):
 
     return x, y
 ```
+ECDF
+plt.plot(data, ecdf(data))
 
 Start to see the histogram, than warplot, ECDF.
 
@@ -47,6 +49,15 @@ IQR - Inter Quantile Range - Inside the box plot.
   std = sqrt(var)
   
 #### Covariance
+
+ It has units
+ 
+#### Person correlation coefficient
+
+Measure covariance too but dimensionless.
+Between -1 and 1.
+
+
 
 
 
