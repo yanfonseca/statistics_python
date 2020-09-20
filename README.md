@@ -1,4 +1,6 @@
-# statistics_python
+# Statistics
+
+Use numpy.
 
 #### Histogram
 
@@ -35,6 +37,16 @@ np.percentile()
 IQR - Inter Quantile Range - Inside the box plot.
 1,5IQR - Extreme.
 2 x IQR - More is considered outlier.
+
+#### Variance
+ 
+  Variance of the data.
+ 
+#### Standard deviation
+
+  std = sqrt(var)
+  
+#### Covariance
 
 
 
